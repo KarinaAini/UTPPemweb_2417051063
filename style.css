@@ -48,10 +48,10 @@ p {
 }
 
 .profile-clip {
-    width: 350px;
+    width: 450px; 
     height: 500px;
     object-fit: cover;
-    clip-path: ellipse(40% 50% at 50% 50%);
+    clip-path: ellipse(50% 50% at 50% 50%); 
 }
 
 .btn-nav {
