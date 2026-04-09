@@ -11,4 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
             el.style.backgroundColor = 'transparent';
             el.style.color = 'white';
         });
-    });
+});
