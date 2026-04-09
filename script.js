@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const elements = document.querySelectorAll('.btn-nav, h1, .arrow-link');
+    const elements = document.querySelectorAll('.btn-nav, .arrow-link');
     
     elements.forEach(el => {
         el.style.transition = "all 0.3s ease";
