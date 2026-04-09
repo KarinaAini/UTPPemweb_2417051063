@@ -1,20 +1,49 @@
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1001; 
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
 body.light-theme {
     background-color: rgb(135, 206, 235);
     color: rgb(0, 0, 0);
 }
 
+body.light-theme .theme-toggle-btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+body.light-theme h1,
+body.light-theme p,
+body.light-theme li,
+body.light-theme .arrow-link {
+    color: rgb(0, 0, 0); 
+}
+
 body.light-theme .btn-nav {
     border-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
-    background-color: transparent;
 }
 
-body.light-theme h1 {
-    color: rgb(0, 0, 0);
-}
-
-body.light-theme .arrow-link {
-    color: rgb(0, 0, 0);
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 * {
