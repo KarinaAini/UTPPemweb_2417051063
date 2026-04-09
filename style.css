@@ -104,13 +104,25 @@ p {
 
 .btn-nav {
     display: inline-block;
-    padding: 12px 40px;
-    border: 1px solid white;
+    min-width: 160px; 
+    padding: 12px 20px; 
+    
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
-    color: white;
+    
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    text-align: center;
+    
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0); /* Transparan */
+    cursor: pointer;
+}
+
+body.light-theme .btn-nav {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .arrow-link {
