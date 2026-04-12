@@ -212,7 +212,30 @@ body.light-theme .btn-nav:hover {
     position: fixed;
     top: 20px;
     left: 20px;
-    border-radius: 30px;
+    padding: 10px 20px;    
+    border: 1px solid white;
+    border-radius: 999px;   
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+body.light-theme .btn-back {
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-back:hover {
+    background-color: white;
+    color: black;
+}
+
+body.light-theme .btn-back:hover {
+    background-color: black;
+    color: white;
 }
 
 .theme-btn {
