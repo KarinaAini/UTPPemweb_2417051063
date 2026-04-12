@@ -69,6 +69,34 @@ body.light-theme .btn-nav:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.btn-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.btn-nav2 {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    min-width: 120px;
+}
+
+.btn-nav3 {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    min-width: 100px;
+}
+
+body {
+    padding-top: 80px;
+}
+
 body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
