@@ -1,11 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
+}
+
 .theme-btn {
     display: inline-block;
     padding: 10px 20px;
     border: 1px solid white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     margin-right: 10px;
     cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
 }
 
 body.light-theme {
@@ -31,18 +44,6 @@ body.light-theme .btn-nav {
     color: rgb(0, 0, 0);
 }
 
-.theme-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    margin-right: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-}
-
 .theme-btn:hover {
     background-color: white;
     color: black;
@@ -51,10 +52,6 @@ body.light-theme .btn-nav {
 body.light-theme .theme-btn:hover {
     background-color: black;
     color: white;
-}
-
-.theme-btn {
-    transition: all 0.3s ease;
 }
 
 .container {
@@ -95,20 +92,7 @@ body.light-theme .btn-nav:hover {
 
 body {
     padding-top: 80px;
-}
-
-body {
     transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', serif;
-}
-
-body {
     background-color: black;
     color: white;
     display: flex;
@@ -119,6 +103,7 @@ body {
 }
 
 .container {
+    position: relative;
     width: 90%;
     max-width: 1000px;
     display: flex;
