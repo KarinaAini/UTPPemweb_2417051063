@@ -151,6 +151,11 @@ body.light-theme .btn-nav {
     position: fixed;
     top: 20px;
     right: 20px;
+    border-radius: 30px;
+}
+
+.theme-btn:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 body.light-theme {
