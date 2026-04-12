@@ -208,40 +208,42 @@ body.light-theme .btn-nav:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.btn-back {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    padding: 10px 20px;    
+.btn-nav3 {
+    display: inline-block;
+
+    padding: 10px 18px;
     border: 1px solid white;
-    border-radius: 999px;   
+    border-radius: 999px;
+
     background-color: rgba(0, 0, 0, 0);
     color: white;
+
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+
     transition: all 0.3s ease;
 }
 
-body.light-theme .btn-back {
+body.light-theme .btn-nav3 {
     border: 1px solid black;
     color: black;
 }
 
-.btn-back:hover {
+.btn-nav3:hover {
     background-color: white;
     color: black;
 }
 
-body.light-theme .btn-back:hover {
+body.light-theme .btn-nav3:hover {
     background-color: black;
     color: white;
 }
 
-.theme-btn {
+.btn-back {
     position: fixed;
     top: 20px;
-    right: 20px;
+    left: 20px;
 }
 
 .btn-nav2 {
