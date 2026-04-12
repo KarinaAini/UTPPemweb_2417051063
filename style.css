@@ -31,6 +31,44 @@ body.light-theme .btn-nav {
     color: rgb(0, 0, 0);
 }
 
+.theme-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.theme-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+body.light-theme .theme-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.theme-btn {
+    transition: all 0.3s ease;
+}
+
+.container {
+    position: relative;
+}
+
+.btn-nav:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+body.light-theme .btn-nav:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
