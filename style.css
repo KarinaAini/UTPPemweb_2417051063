@@ -212,6 +212,7 @@ body.light-theme .btn-nav:hover {
     position: fixed;
     top: 20px;
     left: 20px;
+    border-radius: 30px;
 }
 
 .theme-btn {
