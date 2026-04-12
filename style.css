@@ -125,6 +125,10 @@ body.light-theme .btn-nav {
     margin-top: 0;
 }
 
+.contact-grid p {
+    margin: 0;
+}
+
 .edu-list {
     list-style: none;
     margin-top: 20px;
@@ -208,7 +212,6 @@ body.light-theme .theme-btn:hover {
 body.light-theme .btn-nav:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
 
 .btn-nav2 {
     width: 110px;
