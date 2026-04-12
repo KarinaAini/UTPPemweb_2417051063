@@ -37,3 +37,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+function changeTheme() {
+    let theme = localStorage.getItem('theme');
+    
+    if (theme === 'light') {
+        document.body.classList.remove('light-theme');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        document.body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light');
+    }
+
+    const elements = document.querySelectorAll('.btn-nav, h1, .arrow-link');
+    const isLight = document.body.classList.contains('light-theme');
+    elements.forEach(el => {
+        el.style.color = isLight ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 255)';
+
+        if (el.classList.contains('btn-nav')) {
+            el.style.borderColor = isLight ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 255)';
+        }
+    });
+}
