@@ -127,6 +127,7 @@ body.light-theme .btn-nav {
 .edu-list {
     list-style: none;
     margin-top: 20px;
+    font-size: 1.2rem;
 }
 
 .edu-list li {
