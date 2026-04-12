@@ -49,6 +49,8 @@ function changeTheme() {
         localStorage.setItem('theme', 'light');
     }
 
+    alert("Tema berhasil diganti!");
+
     const elements = document.querySelectorAll('.btn-nav, h1, .arrow-link');
     const isLight = document.body.classList.contains('light-theme');
     elements.forEach(el => {
