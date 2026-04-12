@@ -120,6 +120,10 @@ body.light-theme .btn-nav {
     margin-top: 50px;
 }
 
+.contact-grid div {
+    text-align: center;
+}
+
 .edu-list {
     list-style: none;
     margin-top: 20px;
