@@ -208,20 +208,25 @@ body.light-theme .btn-nav:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.btn-nav3 {
-    display: inline-block;
 
+.btn-nav2 {
+    width: 110px;
+    padding: 6px 10px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.btn-nav3 {
+    text-decoration: none;
+    display: inline-block;
     padding: 10px 18px;
     border: 1px solid white;
     border-radius: 999px;
-
     background-color: rgba(0, 0, 0, 0);
     color: white;
-
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-
     transition: all 0.3s ease;
 }
 
@@ -244,13 +249,6 @@ body.light-theme .btn-nav3:hover {
     position: fixed;
     top: 20px;
     left: 20px;
-}
-
-.btn-nav2 {
-    width: 110px;
-    padding: 6px 10px;
-    font-size: 1.0rem;
-    text-align: center;
 }
 
 .header-interest {
