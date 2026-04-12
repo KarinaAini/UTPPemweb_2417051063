@@ -117,16 +117,11 @@ body.light-theme .btn-nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .contact-grid div {
     text-align: left;
-    margin-top: 0;
-}
-
-.contact-grid p {
-    margin: 0;
 }
 
 .edu-list {
